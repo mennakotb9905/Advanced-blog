@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="An advanced blog with modern design and interactive features" />
+    <title>My Advanced Blog</title>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header Section -->
+    <header class="header">
+      <div class="container">
+        <h1>My Advanced Blog</h1>
+        
+        <!-- Navigation -->
+        <nav class="nav-links" aria-label="Main navigation">
+          <ul class="nav-menu">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+            <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" class="main-content">
+      <div class="container">
+        <div class="row">
+          <!-- Main Blog Content -->
+          <section class="col-main">
+            <article class="post">
+              <header class="post-header">
+                <h2>First Advanced Article Title</h2>
+                <time datetime="2024-01-15" class="post-date">January 15, 2024</time>
+              </header>
+              <div class="post-content">
+                <p>
+                  This is some sample text for the first article. The full content
+                  of the article could be displayed here. Feel free to add more
+                  content and style it as needed. This article demonstrates the
+                  improved semantic structure and enhanced user experience.
+                </p>
+              </div>
+              <footer class="post-footer">
+                <button class="btn btn-primary">Read More</button>
+              </footer>
+            </article>
+
+            <article class="post">
+              <header class="post-header">
+                <h2>Second Advanced Article Title</h2>
+                <time datetime="2024-01-10" class="post-date">January 10, 2024</time>
+              </header>
+              <div class="post-content">
+                <p>
+                  This is some sample text for the second article. The full content
+                  of the article could be displayed here. Experiment with different
+                  layouts and design enhancements. This article showcases responsive
+                  design principles and modern web standards.
+                </p>
+              </div>
+              <footer class="post-footer">
+                <button class="btn btn-primary">Read More</button>
+              </footer>
+            </article>
+
+            <article class="post">
+              <header class="post-header">
+                <h2>Third Advanced Article Title</h2>
+                <time datetime="2024-01-05" class="post-date">January 5, 2024</time>
+              </header>
+              <div class="post-content">
+                <p>
+                  This is some sample text for the third article. Challenge yourself
+                  to add more features and make the blog more interactive and
+                  user-friendly. This article explores advanced CSS techniques and
+                  modern web development practices.
+                </p>
+              </div>
+              <footer class="post-footer">
+                <button class="btn btn-primary">Read More</button>
+              </footer>
+            </article>
+          </section>
+
+          <!-- Sidebar -->
+          <aside class="col-sidebar">
+            <div class="sidebar">
+              <h3>About the Blog</h3>
+              <p>
+                This blog is more advanced, requiring enhancements and
+                restructuring. Built with semantic HTML and modern CSS only.
+                No JavaScript or external frameworks required for a clean, fast experience.
+              </p>
+            </div>
+
+            <div class="sidebar">
+              <h3>Useful Links</h3>
+              <nav aria-label="Useful links">
+                <ul>
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#about">About the Author</a></li>
+                  <li><a href="#contact">Contact Us</a></li>
+                  <li><a href="#portfolio">Portfolio</a></li>
+                </ul>
+              </nav>
+            </div>
+
+            <div class="sidebar">
+              <h3>Recent Posts</h3>
+              <nav aria-label="Recent posts">
+                <ul>
+                  <li><a href="#">How to Improve Your Blog</a></li>
+                  <li><a href="#">Understanding CSS Grid</a></li>
+                  <li><a href="#">10 CSS Tips and Tricks</a></li>
+                </ul>
+              </nav>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-footer">
+            <h4>Contact Us</h4>
+            <form class="contact-form" action="#" method="POST">
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" class="form-control" rows="3" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+          </div>
+          <div class="col-footer">
+            <h4>About</h4>
+            <p>
+              This advanced blog demonstrates modern web development practices
+              using only HTML and CSS. Built with semantic HTML and modern CSS
+              for optimal performance and accessibility without any external dependencies.
+            </p>
+            <p>&copy; 2024 My Advanced Blog. All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Link (CSS-only solution) -->
+    <a href="#top" class="back-to-top" aria-label="Back to top">
+      <span>&uarr;</span>
+    </a>
+  </body>
+</html> 
