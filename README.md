@@ -17,24 +17,6 @@ my-advanced-blog/
 
 ---
 
-## 🚀 How to Run the Project
-
-1. **Download or Clone the Repository**
-
-   ```bash
-   git clone https://github.com/your-username/my-advanced-blog.git
-   ```
-
-2. **Open the Website Locally**
-
-   * Go to the project folder.
-   * Double-click on `index.html` **or**
-   * Right-click and choose **“Open with browser”**.
-
-That’s it! No setup or installations required.
-
----
-
 ## 📱 Features
 
 * Responsive layout (desktop/mobile)
